@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <style>
+.with-margin {
+  margin-top: 20px;
+}
+.with-position {
+  position: relative;
+  top: 20px;
+left: 40px;
+}
+
+.box {
+  width: 48px;
+  height: 48px;
+  border: 4px solid;
+  margin-bottom: 8px;
+}
+/* .pink.box {
+  border-color: deeppink;
+} */
+/*
+  ⚠️ The rest of this CSS is not
+  relevant, and is used to construct
+  the demo. Don't worry if you don't
+  understand it; we'll get to all
+  this stuff soon enough!
+*/
+
+body {
+  display: flex;
+  align-items: flex-start;
+}
+section {
+  flex: 1;
+  background: #EEE;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 3;
+}
+section:not(:last-of-type) {
+  margin-right: 20px;
+}
+    .pink.box {
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    width: 75px;
+    height: 75px;
+    background: deeppink;
+        }
+    </style>
+
+    <body>
+      <!-- <section>
+        Natural
+        <div class="pink box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </section>
+      <section>
+        “margin-top”
+        <div class="pink box with-margin"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </section>
+      <section>
+        “top”
+        <div class="pink box with-position"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </section> -->
+      <p>Paragraph One</p>
+      <p>Paragraph Two</p>
+      <p>Paragraph Three</p>
+      <div class="pink box"></div>
+
+    </body>
+</html>
+
